@@ -36,5 +36,5 @@ spec:
   - git://git-server.scm:9418/linkerd-examples.git
   - https://charts.jetstack.io
   - https://github.com/BuoyantIO/emojivoto.git
-  - https://helm.linkerd.io/stable
+  - https://helm.linkerd.io/edge
   - https://kubernetes-charts.storage.googleapis.com

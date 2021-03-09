@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       annotations:
-        linkerd.io/created-by: linkerd/cli stable-2.8.1
+        linkerd.io/created-by: linkerd/cli edge-21.3.1
         linkerd.io/identity-issuer-expiry: "2021-07-19T20:51:01Z"
       creationTimestamp: null
       labels:
