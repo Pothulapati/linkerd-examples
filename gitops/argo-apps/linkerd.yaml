@@ -7,11 +7,11 @@ spec:
   project: demo
   source:
     chart: linkerd2
-    repoURL: https://helm.linkerd.io/stable
-    targetRevision: 2.8.0
+    repoURL: https://helm.linkerd.io/edge
+    targetRevision: 21.3.1
     helm:
       parameters:
-      - name: global.identityTrustAnchorsPEM
+      - name: identityTrustAnchorsPEM
         value: |
           -----BEGIN CERTIFICATE-----
           -----END CERTIFICATE-----
